@@ -62,4 +62,25 @@ click delete:packages
 click admin:gpg_key
 click admin:ssh_signing_key
 
+HELP URL:
 https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
+
+===========================================
+CLONING : Clone from github to local machine
+
+git clone https://github.com/gurpreetsingh-001/hatchgit.git
+Cloning into 'hatchgit'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 2), reused 8 (delta 1), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (2/2), done.
+
+=====================================
+COLLABORATORS:
+Setting -> Add Collaborator -> Email / Userid
+
+=====================================
+GIT PULL -- this can be used when you are collaborator..
+git pull origin master
