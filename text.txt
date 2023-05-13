@@ -49,3 +49,17 @@ Writing objects: 100% (3/3), 474 bytes | 237.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/gurpreetsingh-001/hatchgit.git
  * [new branch]      master -> master
+
+======================================
+If password authentication failed, then go to :
+setting - Developer setting - Personal access tokens - tokens classic - generate new token classic- 
+Write name of token : test
+
+click repo
+click workflow
+click write:packages
+click delete:packages
+click admin:gpg_key
+click admin:ssh_signing_key
+
+https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
