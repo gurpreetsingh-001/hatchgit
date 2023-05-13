@@ -14,3 +14,38 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ==========
 3. git add . - add all files in tracking
+==========
+$ git add .
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text.txt
+============
+4. git commit
+============ 
+$ git commit -m "Learning the git"
+[master (root-commit) fc282f9] Learning the git
+ 1 file changed, 16 insertions(+)
+ create mode 100644 text.txt
+===========
+5. Add url from git hub: git remote add origin https://github.com/gurpreetsingh-001/hatchgit.git
+This will add git hub repository instance on local git.
+==============
+
+6. git branch - check 
+
+7. git push origin master
+==================
+ info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 474 bytes | 237.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gurpreetsingh-001/hatchgit.git
+ * [new branch]      master -> master
